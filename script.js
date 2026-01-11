@@ -1,5 +1,13 @@
 function indexOfIgnoreCase(s1, s2) {
-  // write your code here
+  // Edge case: empty substring always found at index 0
+    if (subStr.length === 0) return 0;
+    if (str.length === 0) return -1;
+
+    const lowerStr = str.toLowerCase();
+    const lowerSub = subStr.toLowerCase();
+
+    return lowerStr.indexOf(lowerSub);
+  
 }
 
 // Please do not change the code below
